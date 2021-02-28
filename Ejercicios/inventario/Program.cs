@@ -122,6 +122,8 @@ namespace inventario
                 Console.WriteLine("1 - Productos");
                 Console.WriteLine("2 - Ingreso de Inventario");
                 Console.WriteLine("3 - Salida de Inventario");
+                Console.WriteLine("4 - Ajuste negativo del Inventario");
+                Console.WriteLine("5 - Ajuste positivo del Inventario");
                 Console.WriteLine("0 - Salir");
                 opcion = Console.ReadLine();
 
