@@ -58,6 +58,56 @@ namespace inventario
             movimientoInventario(codigo, Int32.Parse(cantidad), "+");
         }
 
+        static void salidaDeInventario() {
+            string codigo = "";
+            string cantidad = "";
+
+            Console.Clear();
+            Console.WriteLine();
+
+            Console.WriteLine("Salida de Productos al Inventario");
+            Console.WriteLine("**********************************");
+            Console.Write("Ingrese el codigo del producto: ");
+            codigo = Console.ReadLine();
+            Console.Write("Ingrese la cantidad del producto: ");
+            cantidad = Console.ReadLine();
+
+            movimientoInventario(codigo, Int32.Parse(cantidad), "-");
+        }
+
+        static void AjusteNegativoDeInventario() {
+            string codigo = "";
+            string cantidad = "";
+
+            Console.Clear();
+            Console.WriteLine();
+
+            Console.WriteLine("Ajuste negativo del Inventario");
+            Console.WriteLine("**********************************");
+            Console.Write("Ingrese el codigo del producto: ");
+            codigo = Console.ReadLine();
+            Console.Write("Ingrese la cantidad del producto: ");
+            cantidad = Console.ReadLine();
+
+            movimientoInventario(codigo, Int32.Parse(cantidad), "-");
+        }
+        static void AjustePositivoDeInventario() {
+            string codigo = "";
+            string cantidad = "";
+
+            Console.Clear();
+            Console.WriteLine();
+
+            Console.WriteLine("Ingreso de Productos al Inventario");
+            Console.WriteLine("**********************************");
+            Console.Write("Ingrese el codigo del producto: ");
+            codigo = Console.ReadLine();
+            Console.Write("Ingrese la cantidad del producto: ");
+            cantidad = Console.ReadLine();
+
+            movimientoInventario(codigo, Int32.Parse(cantidad), "+");
+        }
+
         
         static void Main(string[] args)
         {
@@ -82,6 +132,15 @@ namespace inventario
                         break;
                     case "2":
                         ingresoDeInventario();
+                        break;
+                    case "3":
+                        salidaDeInventario();
+                        break;
+                    case "4":
+                        AjusteNegativoDeInventario();
+                        break;
+                    case "5":
+                        AjustePositivoDeInventario();
                         break;
                     default:
                     break;
