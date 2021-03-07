@@ -9,11 +9,12 @@ public class Alumno
         Id = 1;
     }
 
-     public Alumno(int id) 
+    public Alumno(int id) 
     {
         Id = id;
     }
-     public Alumno (string primerNombre, string segundoNombre) 
+
+    public Alumno (string primerNombre, string segundoNombre) 
     {
         PrimerNombre = primerNombre;
         SegundoNombre = segundoNombre;
