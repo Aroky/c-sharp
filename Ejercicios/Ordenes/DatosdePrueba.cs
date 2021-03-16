@@ -157,6 +157,8 @@ public class DatosdePrueba
         }
 
         Console.WriteLine("");
+        Console.WriteLine("El subtotal es de: " + nuevaOrden.Subtotal);
+        Console.WriteLine("El impuesto a pagar es de: " + nuevaOrden.Impuesto);
         Console.WriteLine("Total de la orden es de: " + nuevaOrden.Total);
         Console.ReadLine();
     }
