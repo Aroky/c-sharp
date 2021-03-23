@@ -6,17 +6,17 @@ namespace animales
     {
         static void Main(string[] args)
         {
-            Perro p = new Perro();
+            Perro b = new Perro();
             Console.WriteLine("-----");
             Console.WriteLine("Perro");
             Console.WriteLine("-----");
-            p.Nombre = "channel";
-            p.Patas = 4;
-            p.EsDomestico = true;
-            p.Comer();
-            p.Caminar();
-            p.Ladrar();
-            p.Tamano();
+            b.Nombre = "channel";
+            b.Patas = 4;
+            b.EsDomestico = true;
+            b.Comer();
+            b.Caminar();
+            b.Ladrar();
+            b.Tamano();
 
             Console.WriteLine(p.Nombre);
             Console.WriteLine(p.Patas);
@@ -120,3 +120,4 @@ namespace animales
             Console.WriteLine(z.Color);
             }
         }
+}
