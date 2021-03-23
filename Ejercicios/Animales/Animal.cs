@@ -1,7 +1,10 @@
-public class Animal{
+using System;
+public abstract class Animal
+{
     public string Nombre { get; set; }
-    
-    public void comer(){
-        
+    public void Comer()
+    {
+        Console.WriteLine("Comiendo...");
+
     }
 }
