@@ -17,7 +17,7 @@ public class Gato: Mamifero
     public void Maullar()
     {
         Console.WriteLine("Miau miau miau");
-
+        Console.WriteLine("");
     }
 
 }

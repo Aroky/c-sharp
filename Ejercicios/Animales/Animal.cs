@@ -5,6 +5,6 @@ public abstract class Animal
     public void Comer()
     {
         Console.WriteLine("Comiendo...");
-
+        Console.WriteLine("");
     }
 }

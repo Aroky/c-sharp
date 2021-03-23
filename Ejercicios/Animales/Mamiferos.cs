@@ -6,6 +6,7 @@ public abstract class Mamifero: Animal
     public void Caminar()
     {
         Console.WriteLine("Caminando..."); 
+        Console.WriteLine("");
     }
 
 }

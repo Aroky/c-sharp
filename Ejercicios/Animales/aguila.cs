@@ -7,6 +7,7 @@ public class Aguila: Aves
     public void Cazadoras()
     {
         Console.WriteLine("Son Cazadoras");
+        Console.WriteLine("");
     }
     
 

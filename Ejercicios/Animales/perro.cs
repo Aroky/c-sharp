@@ -16,6 +16,7 @@ public class Perro: Mamifero
     public void Ladrar() 
     {
         Console.WriteLine("Gua gua gua");
+        Console.WriteLine("");
     }
 
     public void Tamano()
@@ -26,7 +27,7 @@ public class Perro: Mamifero
     private void DescribirTamano()
     {
         Console.WriteLine(" 65cm es grande");
-
+        Console.WriteLine("");
     }
 
 }

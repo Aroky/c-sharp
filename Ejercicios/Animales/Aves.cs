@@ -8,5 +8,6 @@ public abstract class Aves: Animal
     public void Volar()
     {
         Console.WriteLine("Volando...");
+        Console.WriteLine("");
     }
 }

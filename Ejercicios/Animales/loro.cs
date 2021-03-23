@@ -7,6 +7,7 @@ public class Loro: Aves
     public void Hablan()
     {
         Console.WriteLine("se comunican con los demá, imitando todos los sonidos que escucha");
+        Console.WriteLine("");
     }
 
     public void Pico()
@@ -17,6 +18,7 @@ public class Loro: Aves
     private void DescribirPico()
     {
         Console.WriteLine("posee una curvatura y una robustez, su punta poseen gran parte del sentido del tacto.");
+        Console.WriteLine("");
     }
 
 }

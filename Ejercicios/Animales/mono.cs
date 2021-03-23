@@ -18,5 +18,6 @@ public class Mono: Mamifero
    public void Aullar()
    {
        Console.WriteLine("Ua ua ua");
+       Console.WriteLine("");
    }
 }

@@ -19,7 +19,9 @@ namespace animales
             b.Tamano();
 
             Console.WriteLine(b.Nombre);
+            Console.WriteLine("");
             Console.WriteLine(b.Patas);
+            Console.WriteLine("");
             
 
             Console.WriteLine();
@@ -38,9 +40,13 @@ namespace animales
             g.EsAmargado = true;
 
             Console.WriteLine(g.Nombre);
+            Console.WriteLine("");
             Console.WriteLine(g.Patas);
+            Console.WriteLine("");
             Console.WriteLine(g.Pelaje);
-            Console.WriteLine(g.Raza);         
+            Console.WriteLine("");
+            Console.WriteLine(g.Raza); 
+            Console.WriteLine("");        
 
             Console.WriteLine();
 
@@ -58,9 +64,13 @@ namespace animales
             m.Aullar();
 
             Console.WriteLine(m.Nombre);
+            Console.WriteLine("");
             Console.WriteLine(m.Patas);
+            Console.WriteLine("");
             Console.WriteLine(m.Orden);
+            Console.WriteLine("");
             Console.WriteLine(m.Reproduccion);
+            Console.WriteLine("");
 
             Console.WriteLine();
 
@@ -77,9 +87,13 @@ namespace animales
             a.Cazadoras();
 
             Console.WriteLine(a.Nombre);
+            Console.WriteLine("");
             Console.WriteLine(a.Incubacion);
+            Console.WriteLine("");
             Console.WriteLine(a.Patas);
+            Console.WriteLine("");
             Console.WriteLine(a.ColorPlumaje);
+            Console.WriteLine("");
 
             Console.WriteLine();
 
@@ -96,8 +110,11 @@ namespace animales
             l.Pico();
 
             Console.WriteLine(l.Nombre);
+            Console.WriteLine("");
             Console.WriteLine(l.Patas);
+            Console.WriteLine("");
             Console.WriteLine(l.ColorPlumaje);
+            Console.WriteLine("");
 
             Console.WriteLine();
 
@@ -115,9 +132,13 @@ namespace animales
             z.Incharse();
 
             Console.WriteLine(z.Nombre);
+            Console.WriteLine("");
             Console.WriteLine(z.NumeroAletas);
+            Console.WriteLine("");
             Console.WriteLine(z.Piel);
+            Console.WriteLine("");
             Console.WriteLine(z.Color);
+            Console.WriteLine("");
 
             PezDorado n = new PezDorado();
             Console.WriteLine("**********");
@@ -133,9 +154,13 @@ namespace animales
             n.Nada();
 
             Console.WriteLine(n.Nombre);
+            Console.WriteLine("");
             Console.WriteLine(n.NumeroAletas);
+            Console.WriteLine("");
             Console.WriteLine(n.Piel);
+            Console.WriteLine("");
             Console.WriteLine(n.Color);
+            Console.WriteLine("");
 
             }
         }

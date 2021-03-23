@@ -7,6 +7,7 @@ public class PezGlobo: Peces
     public void Incharse()
     {
         Console.WriteLine("Inflarse");
+        Console.WriteLine("");
     }
 
     public void Venenosa()
@@ -16,6 +17,7 @@ public class PezGlobo: Peces
 
     private void SonVenenosa()
     {
-        Console.WriteLine("Pueden ser venenosos. ");
+        Console.WriteLine("Son venenosos. ");
+        Console.WriteLine("");
     }
 }

@@ -7,6 +7,7 @@ public class PezDorado: Peces
     public void Nada()
     {
         Console.WriteLine("Nadar en pecera");
+        Console.WriteLine("");
     }
 
     public void Mascota()
@@ -17,5 +18,6 @@ public class PezDorado: Peces
     private void SonMascota()
     {
         Console.WriteLine("Perfectos para ser una linda mascota. ");
+        Console.WriteLine("");
     }
 }
