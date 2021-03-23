@@ -5,12 +5,12 @@ public class Gato: Mamifero
     public string Raza { get; set; }
     public bool EsAmargado { get; set; }
 
-    public Gato() // Polimorfismo
+    public Gato() 
     {
         EsAmargado = true;
     }
 
-    public Gato(bool esAmargado) // Polimorfismo
+    public Gato(bool esAmargado) 
     {
         EsAmargado = esAmargado;
     }
